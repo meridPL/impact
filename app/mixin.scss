@@ -1,0 +1,25 @@
+@mixin respond($view) {
+  @if $view==mobile {
+    @media only screen and (max-width: 40em) {
+      @content;
+    }
+
+    // < 640px
+  }
+
+  @if $view==tablet {
+    @media only screen and (min-width: 54em) {
+      @content;
+    }
+
+    // > 1024px
+  }
+
+  @if $view==desktop {
+    @media only screen and (min-width: 90em) {
+      @content;
+    }
+
+    // > 1440px
+  }
+}

@@ -1,0 +1,20 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  img {
+    align-self: center;
+    min-height: 200px;
+  }
+  button {
+    align-self: flex-end;
+  }
+  input {
+    align-self: flex-end;
+    max-width: 2rem;
+    text-align: right;
+  }
+  .price {
+    flex-basis: 100%;
+  }
+}

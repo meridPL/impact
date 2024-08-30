@@ -1,0 +1,14 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  &.smallerGap {
+    gap: 1rem;
+  }
+}
+.title {
+  padding-bottom: 2rem;
+}
+.category {
+  padding-bottom: 1rem;
+}

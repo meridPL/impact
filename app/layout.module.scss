@@ -1,0 +1,23 @@
+$heightMenu: 4rem;
+.nav {
+  background: rgb(219, 219, 219);
+  height: $heightMenu;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  padding-inline: 2rem;
+  font-size: 2.5rem;
+  font-size: bold;
+  .cart {
+    flex: 1;
+    text-align: end;
+  }
+}
+.section {
+  padding-top: calc($heightMenu + 1rem);
+  padding-inline: 2rem;
+}
+.body {
+  padding-bottom: 1rem;
+}

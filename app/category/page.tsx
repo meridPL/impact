@@ -1,11 +1,8 @@
+import ListCategory from "@/comopnents/Products/ListCategory/ListCategory";
 import React from "react";
 
-const CategoryPage = () => {
-  return (
-    <div>
-      <h1>Category a</h1>
-    </div>
-  );
+const ListCategoryPage = async () => {
+  return <ListCategory showProducts />;
 };
 
-export default CategoryPage;
+export default ListCategoryPage;
